@@ -1,12 +1,12 @@
 A WebApp that lets you transfer your college timetable to Google Calender.<br>
 Language : Python
 
-# Setup <br> 
+# Setup 
 Clone this repository first.
 The project uses `Python 3.6` with the following packages.
 - python-docx with `pip install python-docx` to install
 - flask with `pip install flask` to install (Flask might throw and error, if it does `sudo apt-get install python-flask` should fix it )
-- google-calender with `pip install --upgrade google-api-python-client oauth2client` to install. After installation, got to the [Google Calender] Python QUickstart to activate the API for your app, clicking on *Enable Google Calender API* should do this. During the process you will get a file called `credentials.json` place this in the root directory of your local version of this project. **Do not upload this file when contributing** 
+- google-calender with `pip install --upgrade google-api-python-client oauth2client` to install. After installation, got to the [Google Calender Python QUickstart](https://developers.google.com/calendar/quickstart/python?authuser=2) to activate the API for your app, clicking on *Enable Google Calender API* should do this. During the process you will get a file called `credentials.json` place this in the root directory of your local version of this project. **Do not upload this file when contributing** 
 
 After this you're all set! :sparkles:
 
